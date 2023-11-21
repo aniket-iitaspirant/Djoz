@@ -1,0 +1,1258 @@
+/* header */
+.header{
+    height: 109px;
+    width: 1503px;
+    background-color: black;
+    opacity: 0.7;
+}
+
+.icon{
+    margin-left: 169px;
+    margin-top: 20px;
+}
+
+.home{
+    margin-left: 408px;
+    margin-top: -32px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.about{
+    margin-left: 498px;
+    margin-top: -35px;
+    color: #fff;
+}
+
+.about:hover{
+    text-decoration: underline;
+}
+
+.DISCOGRAPHY{
+    margin-left: 593px;
+    margin-top: -35px;
+    color: #fff; 
+}
+
+.DISCOGRAPHY:hover{
+    text-decoration: underline;
+}
+
+
+.TOURS{
+    margin-left: 750px;
+    margin-top: -35px;
+    color: #fff; 
+}
+
+.TOURS:hover{
+    text-decoration: underline;
+}
+
+.IDIO{
+    margin-left: 841px;
+    margin-top: -35px;
+    color: #fff;  
+}
+
+.IDIO:hover{
+    text-decoration: underline;
+}
+
+.pages{
+    margin-left: 937px;
+    margin-top: -35px;
+    color: #fff; 
+}
+
+.pages:hover{
+    text-decoration: underline;
+    width: 0px;
+    background-color: grey;
+    opacity: 0.6;
+    margin-left: 936px;
+}
+.cointer{
+    height: 1050px;
+    width: 100%;
+    background-image: url(heaeo-dja.webp);
+    margin-top: -109px;
+    background-position: top center;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 155px;
+    background-color: #f1f1f1;
+    margin-left: 937px;
+    margin-top: -8px;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.dropdown{
+    margin-left: 934px;
+    margin-top: -50px;
+}
+
+
+.PAGES {
+    background-color: #000;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+    .PAGES {
+    position: relative;
+    display: inline-block;
+}
+
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+    .dropdown-content a:hover {background-color: #f1f1f1}
+
+    .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+    .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.CONTACT{
+    margin-left: 1052px;
+    margin-top: -35px;
+    color: #fff; 
+}
+
+.CONTACT:hover{
+    text-decoration: underline;
+}
+
+.fackbook{
+    margin-left: 1174px;
+    height: 20px;
+    width: 20px;
+    display: block;
+    margin-top: -35px;
+}
+
+.twittr{
+    margin-left: 1204px;
+    height: 15px;
+    width: 15px;
+    display: block;
+    margin-top: -19px;
+}
+
+.inst{
+    margin-left: 1230px;
+    height: 15px;
+    width: 15px;
+    display: block;
+    margin-top: -16px;  
+}
+
+.basketball{
+    margin-left: 1259px;
+    height: 15px;
+    width: 15px;
+    display: block;
+    margin-top: -16px;  
+}
+
+.NEWSINGLE{
+    color: #fff;
+    padding-top: 391px;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 6px;
+}
+
+.Feel{
+    color: #fff;
+    margin-top: -7px;
+    font-size: 80px;
+    text-align: center; 
+    font-family: "Rockville Solid Regular";
+}
+
+.lorem{
+    font-size: 19px;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 0px;
+}
+
+.play-btn1{
+    font-size: 26px;
+    color: coral;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    display: inline-block;
+    line-height: 90px;
+    text-align: center;
+    z-index: 1;
+    margin-left: 721px;
+    margin-top: 28px;
+    position: absolute;
+}
+
+.hero__text .play-btn:after {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    height: 60px;
+    width: 60px;
+    background: #ffffff;
+    border-radius: 50%;
+    content: "";
+    z-index: -1;
+}
+
+.angle{
+    margin-top: 365px;
+    margin-left: 727px;
+    font-size:48px;
+    color:red
+}
+
+
+img.vert-move{
+    height: 27px;
+    width: 24px;
+    text-align: center;
+    margin-left: 740px;
+    margin-top: 376px;
+} 
+
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+/* cointer1 */
+.cointer1{
+    height: 739px;
+    width: 100%;
+    margin-top: 114px;
+}
+
+.cointer2{
+    height: 737px;
+    width: 80%;
+    margin: auto;
+}
+
+.header1{
+    height: 100px;
+    width: 98%;
+    padding: 12px;
+}
+
+.div1{
+    height: 50px;
+    width: 268px;
+    display: inline-block;
+}
+
+.div2{
+    height: 50px;
+    width: 816px;
+    background-color: #fff;
+    display: inline-block;
+    margin-top: 18px;
+}
+
+.div3{
+    height: 50px;
+    width: 81px;
+    display: inline-block;
+}
+
+
+.up{
+    font-size: 27px;
+    padding: 0px;
+    margin: 0px;
+    margin-top: -16px !important;
+    display: table-cell;
+}
+
+.border{
+    border-top: 10px solid #ccc;
+    margin-top: 10px;
+}
+
+.cointer3{
+    height: 553px;
+    width: 91%;
+    margin-left: 47px;
+    margin-top: 49px;
+}
+
+.div4{
+    height: 499px;
+    width: 342px;
+    background-color: #fff;
+    background-size: contain;
+}
+
+.div5{
+    height: 360px;
+    width: 342px;
+    background-image: url(girl-img.webp);
+}
+
+.div6{
+    height: 499px;
+    width: 342px;
+    background-color: #fff;
+    background-size: contain;
+    margin-left: 376px;
+    margin-top: -499px;  
+}
+
+.div7{
+    height: 360px;
+    width: 342px;
+    background-image: url(girl-1img.webp);  
+}
+
+.div8{
+    height: 499px;
+    width: 342px;
+    background-color: #fff;
+    background-size: contain;
+    margin-left: 753px;
+    margin-top: -499px;   
+}
+
+.div9{
+    height: 360px;
+    width: 342px; 
+    background-image: url(girl-2img.webp);
+}
+
+.div10{
+    height: 40px;
+    width: 155px;
+    background-color: #5c00ce;
+    margin-top: -38px;
+    margin-left: 91px;
+}
+
+.div11{
+    height: 40px;
+    width: 155px;
+    background-color: #5c00ce;
+    margin-top: -41px;
+    margin-left: 91px;
+}
+
+.div12{
+    height: 40px;
+    width: 155px;
+    background-color: #5c00ce;
+    margin-top: -40px;
+    margin-left: 91px;
+}
+
+.dec{
+    font-size: 20px;
+    color: #fff;
+    padding-top: 9px;
+    text-align: center;
+}
+
+.dec2{
+    font-size: 20px;
+    color: #fff;
+    padding-top: 9px;
+    text-align: center; 
+}
+
+.dec1{
+    font-size: 20px;
+    color: #fff;
+    padding-top: 9px;
+    text-align: center;
+}
+
+.david{
+    font-size: 26px;
+    font-weight: 700;
+    color: #111111;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.david1{
+    font-size: 26px;
+    font-weight: 700;
+    color: #111111;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 18px;
+}
+
+.david2{
+    font-size: 26px;
+    font-weight: 700;
+    color: #111111;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 18px;
+}
+
+.map{
+    color: #5c00ce;
+    margin-left: 28px;
+}
+
+.Funkhaus{
+    margin-top: -18px;
+    margin-left: 56px;
+    color: gray;
+}
+
+.Funkhaus1{
+    margin-top: -18px;
+    margin-left: 56px;
+    color: gray;
+}
+
+.Funkhaus2{
+    margin-top: -18px;
+    margin-left: 56px;
+    color: gray; 
+}
+
+.map1{
+    color: #5c00ce;
+    margin-left: 28px; 
+}
+
+.map2{
+    color: #5c00ce;
+    margin-left: 28px;
+}
+
+
+/* cointer4 */
+.cointer4{
+    height: 524px;
+    width: 100%;
+}
+
+.cointer5{
+    height: 528px;
+    width: 97%;
+    margin: auto;
+}
+
+.cointer6{
+    height: 493px;
+    width: 91%;
+    margin: auto;
+}
+
+.div13{
+    height: 433px;
+    width: 50%;
+    background-color: #fff;
+}
+
+.div14{
+    height: 433px;
+    width: 50%;
+    margin-left: 663px;
+    margin-top: -466px;
+}
+
+.dj{
+    font-size: 41px;
+    margin-left: 106px;
+    padding-top: 148px;
+}
+
+.dj1{
+    margin-left: 106px; 
+}
+
+.primary-btn{
+    display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 14px 25px 12px;
+    color: #ffffff;
+    background: #5c00ce;
+    letter-spacing: 2px;
+    margin-left: 106px;
+}
+
+/* cointer7 */
+
+.cointer7{
+    height: 589px;
+    width: 100%;
+    background-color: #5c00ce;
+}
+
+.div15{
+    height: 589px;
+    width: 50%;
+    background-color: #3e8e41;
+    background-image: url(mousic-img.webp);
+}
+
+.div16{
+    height: 589px;
+    width: 50%;
+    background-color: darkgreen;
+    margin-left: 752px;
+    margin-top: -588px;
+}
+
+.div17{
+    height: 294px;
+    width: 386px;
+    background: #5400BC;
+}
+
+.div18{
+    height: 294px;
+    width: 386px;
+    background: #5c00ce;
+}
+
+.div19{
+    height: 294px;
+    width: 366px;
+    background: #5c00ce;
+    margin-left: 386px;
+    margin-top: -588px;
+}
+
+.div20{
+    height: 294px;
+    width: 366px;
+    background: #5400BC;
+    margin-left: 386px;
+}
+
+.heart{
+    margin-top: 45px;
+    margin-left: 52px;
+}
+
+.Wedding{
+    color: #fff;
+    font-size: 34px;
+    margin-left: 52px;
+    margin-top: 13px;
+}
+
+.lor{
+    color: #fff;
+    margin-left: 52px;
+    margin-top: -16px;
+}
+
+.play{
+    font-size: 26px;
+    color: #ffffff;
+    height: 90px;
+    width: 90px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 49px;
+    line-height: 90px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-left: 439px;
+    margin-top: 273px;
+}
+
+.glass{
+    margin-top: 45px;
+    margin-left: 52px;
+}
+
+.clubs{
+    color: #fff;
+    font-size: 34px;
+    margin-left: 52px;
+    margin-top: 13px;
+}
+
+.lorm{
+    color: #fff;
+    margin-left: 52px;
+    margin-top: -16px;
+}
+
+.facta{
+    margin-top: 45px;
+    margin-left: 52px;
+}
+
+.Corporate{
+    color: #fff;
+    font-size: 34px;
+    margin-left: 52px;
+    margin-top: 13px;
+}
+
+.lorm1{
+    color: #fff;
+    margin-left: 52px;
+    margin-top: -16px; 
+}
+
+.cd{
+    margin-top: 45px;
+    margin-left: 52px;   
+}
+
+.dj2{
+    color: #fff;
+    font-size: 34px;
+    margin-left: 52px;
+    margin-top: 13px; 
+}
+
+/* cointer8 */
+
+.cointer8{
+    height: 710px;
+    width: 100%;
+    margin-top: 5px;
+}
+.cointer9{
+    height: 610px;
+    width: 84%;
+    margin: auto;
+}
+
+.div21{
+    height: 610px;
+    width: 50%;
+    display: inline-block;
+    float:left;
+    max-height: 610px;
+    overflow-y: scroll;
+}
+
+
+
+.div22{
+    width: 49%;
+    height: 610px;
+    float: right;
+    display: inline-block;
+
+}
+
+.header7{
+    height: 96px;
+    width: 100%;
+}
+
+.header7left{
+    height: 96px;
+    width: 49%;
+    float: left;
+}
+
+.header7right{
+    height: 96px;
+    width: 49%;
+    float: right;
+}
+
+.div33{
+    height: 480px;
+    width: 436px;
+
+    margin-top: 74px;
+    margin-right: 101px;
+    float: right;
+    background-image: url(dance-1img.webp);
+}
+
+
+.div32{
+    height: 55px;
+    width: 15%;
+
+}
+
+.music{
+    font-size: 70px;
+    color: gray;
+    font-family: "Rockville Solid Regular";
+    position: absolute;
+    margin: -10px;
+    opacity: 0.4;
+}
+
+.latest{
+    font-size: 32px;
+    color: #000;
+    margin-top: 21px;
+}
+
+.button{
+    height: 50%;
+    width: 196px;
+    border: 5px solid blue;
+    float: right;
+}
+
+.view{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.all2{
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    padding-top: 14px;
+    color: #000;
+    letter-spacing: 2px;
+}
+
+.div23{
+    height: 128px;
+    width: 100%;
+    margin-top: -13px;
+}
+
+.david3{
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.div28{
+    height: 128px;
+    width: 100%;
+    margin-top: -21px;
+}
+
+.david4{
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.div29{
+    height: 128px;
+    width: 100%;
+    margin-top: -21px;  
+}
+
+.david5{
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.div30{
+    height: 128px;
+    width: 100%;
+    margin-top: -21px;  
+}
+
+.david6{
+    font-size: 23px;
+    font-weight: 700;
+}
+
+  .div31{
+    height: 128px;
+    width: 100%;
+    margin-top: -21px; 
+  }
+
+  .david7{
+    font-size: 23px;
+    font-weight: 700;
+}
+
+/* cointer10 */
+.cointer10{
+    height: 530px;
+    width: 100%;
+    margin-top: 157px;
+}
+
+.cointer11{
+    height: 524px;
+    width: 88%;
+    margin: auto;
+}
+
+.header9{
+    height: 100px;
+    width: 100%;
+}
+
+
+.section{
+    font-size: 42px;
+    color: #111111;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.youtube{
+    font-size: 90px;
+    font-family: "Rockville Solid Regular";
+    position: absolute;
+    left: 0;
+    margin-top: -14px;
+    text-align: center;
+    width: 100%;
+    opacity: 0.3;
+}
+
+.div24{
+    height: 256px;
+    width: 378px;
+    background-color: #5c00ce;
+    margin-left: 13px;
+    background-image: url(mousic-img1.webp);
+    background-size: contain;
+}
+
+.div25{
+    height: 256px;
+    width: 378px;
+    background-color: #5c00ce;
+    margin-left: 451px;
+    margin-top: -255px;
+    background-image: url(man-img.webp);
+    background-size: contain;
+}
+
+.div26{
+    height: 256px;
+    width: 378px;
+    background-color: #5c00ce;
+    margin-left: 894px;
+    margin-top: -255px; 
+    background-image: url(dance-img.webp);
+    background-size: contain;
+}
+
+.play-btn1{
+    font-size: 16px;
+    color: #fff;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    display: inline-block;
+    line-height: 60px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-left: 166px;
+    margin-top: 74px;
+}
+
+.play-btn2{
+    font-size: 16px;
+    color: #fff;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    display: inline-block;
+    line-height: 60px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-left: 166px;
+    margin-top: 74px;
+}
+
+.play-btn3{
+    font-size: 16px;
+    color: #fff;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    display: inline-block;
+    line-height: 60px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    margin-left: 166px;
+    margin-top: 74px;
+}
+
+.david52{
+    font-size: 25px;
+    color: #000000;
+    line-height: 34px;
+    font-weight: 700;
+    margin-left: 27px;
+    margin-top: 137px;
+}
+
+.music1{
+    font-size: 25px;
+    color: #000000;
+    line-height: 34px;
+    font-weight: 700;
+    margin-top: -10px;
+    margin-left: 25px;
+}
+
+.Martin{
+    font-size: 25px;
+    color: #000000;
+    line-height: 34px;
+    font-weight: 700;
+    margin-top: 131px;
+    margin-left: 25px;
+}
+
+.imitr{
+    font-size: 25px;
+    color: #000000;
+    line-height: 34px;
+    font-weight: 700;
+    margin-top: 131px;
+    margin-left: 25px;
+}
+
+
+/* cointer12 */
+
+.cointer12{
+    height: 1096px;
+    width: 100%;
+    background-image: url(man1-img.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div27{
+
+}
+
+.cointer13{
+    height: 388px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(water-img.webp);
+    background-size: cover;
+    margin-top: -709px;
+    padding-top: 331px;
+    background-size: 100% 98%;
+}
+
+.demo{
+    font-size: 72px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0px;
+    margin-top: -216px;
+}
+
+.tom{
+    font-size: 66px;
+    color: #fff;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 36px;
+}
+
+.music2{
+    font-size: 34px;
+    color: #fff;
+    text-align: center;
+    margin-top: -55px;
+    padding-top: 0px;
+}
+
+.buy{
+    height: 73px;
+    width: 247px;
+    background-color: #5c00ce;
+    margin-top: 174px;
+    margin-left: 671px;
+}
+
+.buy1{
+    display: inline-block;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 14px 25px 12px;
+    color: #ffffff;
+    padding-top: 27px;
+    letter-spacing: 2px;
+    margin-left: 32px;   
+    cursor: pointer;
+}
+
+.footerdising{
+    height: 353px;
+    width: 81%;
+    margin:auto;
+    margin-top: -76px;
+}
+
+.div40{
+    height: 353px;
+    width: 391px;
+}
+
+.div43{
+    height: 72px;
+    width: 72px;
+    background-color: #ffffff;
+    border-radius: 72px;
+}
+
+.phonesixty{
+    margin-left: 19px;
+    font-size: 31px;
+    margin-top: 20px;
+    color: #5400BC;
+}
+
+
+.fortyone{
+    font-size: 19px;
+    margin-left: 88px;
+    margin-top: -213px;
+    color: #ccc;
+}
+
+
+.sixtyone{
+    font-size: 19px;
+    margin-left: 88px;
+    margin-top: -15px;
+    color: #fff;
+}
+
+.div41{
+    height: 353px;
+    width: 398px;
+    margin-left: 411px;
+    margin-top: -215px;
+}
+
+.div42{
+    height: 353px;
+    width: 391px;
+    margin-left: 826px;
+    margin-top: -354px; 
+}
+
+.div44{
+    height: 72px;
+    width: 72px;
+    background-color: #ffffff;
+    border-radius: 72px;
+    margin-top: -210px;
+}
+
+.envelopeone{
+    margin-left: 19px;
+    font-size: 31px;
+    margin-top: 20px;
+    color: #5400BC;
+}
+
+.Emailnine{
+    font-size: 19px;
+    margin-left: 88px;
+    margin-top: 87px;
+    color: #ccc;
+}
+
+.djsisi{
+    font-size: 19px;
+    margin-left: 88px;
+    margin-top: -11px;
+    color: #fff;
+}
+
+.DJoz99{
+    font-size: 83px;
+    margin-top: 0px;
+    text-align: center;
+    color: #fff;
+}
+
+.div48{
+    height: 72px;
+    width: 72px;
+    background-color: #ffffff;
+    border-radius: 72px;
+    margin-top: -11px;
+    margin-left: 36px;
+}
+
+.div49{
+    height: 72px;
+    width: 72px;
+    background-color: #ffffff;
+    border-radius: 72px;
+    margin-top: -75px;
+    margin-left: 124px;
+}
+
+.div50{
+    height: 72px;
+    width: 72px;
+    background-color: #ffffff;
+    border-radius: 72px;
+    margin-top: -75px;
+    margin-left: 211px; 
+}
+
+.div51{
+    height: 72px;
+    width: 72px;
+    background-color: #ffffff;
+    border-radius: 72px;
+    margin-top: -75px;
+    margin-left: 298px;    
+}
+
+.facebook98{
+    padding-left: 24px;
+    font-size: 31px;
+    padding-top: 24px;
+    color: #5400BC;
+}
+
+.twitter98{
+    padding-left: 24px;
+    font-size: 31px;
+    padding-top: 24px;
+    color: #5400BC; 
+}
+
+.instagram98{
+    padding-left: 24px;
+    font-size: 31px;
+    padding-top: 24px;
+    color: #5400BC; 
+}
+
+.dirbbble90{
+    padding-left: 24px;
+    font-size: 31px;
+    padding-top: 24px;
+    color: #5400BC;  
+}
+
+.staywith{
+    font-size: 40px;
+    margin-top: 26px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.fname {
+    height: 49px;
+    width: 218px;
+    background-color: #D0D0D0;
+    margin-left: 22px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.emailidy1{
+    height: 52px;
+    width: 53px;
+    background-color: #fff;
+    margin-top: -53px;
+    margin-left: 248px;
+}
+
+.send-o{
+    padding-left: 16px;
+    font-size: 23px;
+    padding-top: 14px;
+    color: #5400BC;  
+}
+
+.div1000{
+    height: 100px;
+    width: 1217px;
+    margin-left: 143px;
+}
+
+.Allrights{
+    font-size: 24px;
+    text-align: center;
+    color: #555;
+    margin-top: 0px;
+}
+
+.heart999{
+    color: red;
+}
